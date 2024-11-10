@@ -1,0 +1,39 @@
+.Title{
+  text-align: center;
+  margin-top: 92px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.Title span{
+  color:rgb(255, 165, 47);
+}
+.Car{
+  height: 20vh;
+}
+
+.BigParent{
+  height: 89vh;
+  /* overflow: hidden; */
+}
+
+
+
+
+
+
+
+
+
+/* .BigParent{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Parent{
+    height: 89vh;
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    overflow: hidden;
+    align-items: center;
+} */

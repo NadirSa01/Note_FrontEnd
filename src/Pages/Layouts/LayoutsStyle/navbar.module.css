@@ -1,0 +1,75 @@
+.nav {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 17px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000000;
+}
+.GetStarted {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.navElement {
+  display: flex;
+}
+.navElement li:active{
+  color: rgb(255, 165, 47);
+}
+.navElement li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  font-weight: 600;
+}
+.navElement li:hover {
+  transition: 0.2s;
+  color: rgb(255, 165, 47);
+  border-radius: 10px;
+}
+.navTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 650;
+}
+.letters {
+  color: rgb(255, 165, 47);
+}
+.navTitle:hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 481px) {
+  .navElement li {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .GetStarted span {
+    display: none;
+  }
+}

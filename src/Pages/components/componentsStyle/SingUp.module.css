@@ -1,0 +1,261 @@
+.Parent {
+    height: 79vh;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 22px;
+    margin-top: 150px;
+    margin-bottom: 120px;
+  }
+  .container {
+    background-color: white;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .Title {
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 165, 47);
+  }
+  .Motivation {
+    text-align: center;
+    padding: 30px;
+    font-size: small;
+    margin-top: -25px;
+    color: rgb(40, 61, 90);
+    font-weight: 650;
+    opacity: 85%;
+  }
+  .Motivation span {
+    color: rgb(255, 165, 47);
+  }
+  .Form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Form input {
+    display: flex;
+    padding: 9px;
+    margin: 5px;
+    width: 70%;
+  }
+  .inp {
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(255, 165, 47);
+  }
+  .inp:focus {
+    outline: none;
+    transition: 0.5s ease;
+    box-shadow: 0 0 0 5px rgb(255, 165, 47);
+  }
+  .inp::placeholder {
+    color: rgb(255, 165, 47);
+    font-weight: 600;
+  }
+  .SingIn {
+    border-radius: 10px;
+    background: rgb(255, 255, 255); 
+    border: 2px solid;
+    border-color: rgb(255, 165, 47);
+    font-weight: 600;
+    transition: background-position .8s ease, box-shadow 0.5s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(90deg, rgb(255, 165, 47) 50%, transparent 50%); 
+    background-size: 200% 100%; 
+    background-position: right; 
+  }
+  
+  .SingIn:hover {
+    background-position: left; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .GoogleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .SingGoogle {
+    padding: 9px;
+    margin: 5px;
+    width: 70%;  
+    border-radius: 10px;
+    background: rgb(255, 255, 255);  
+    border: 2px solid;
+    font-weight: 600;
+    transition: background-position 0.8s ease, box-shadow 0.5s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(
+      90deg,
+      rgba(255, 47, 47, 1) 0%,
+      rgba(201, 255, 47, 0.975) 40%,
+      rgba(95, 91, 227, 1) 85%
+    ); 
+    background-size: 200% 100%; 
+    background-position: right; 
+    color: white;
+  }
+  
+  .SingGoogle:hover {
+    background-position: left; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .Conditions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(82, 82, 245);
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .Or{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+  }
+  .ligne{
+    width: 20%;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    opacity: 50%;
+  }
+  
+  .ligne2{
+    width: 48%;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    opacity: 45%;
+  }
+  .SingUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SingUpBtn {
+    padding: 9px;
+    margin: 5px;
+    width: 70%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255); 
+    border: 2px solid;
+    border-color: rgb(255, 165, 47);
+    font-weight: 600;
+    transition: background-position .8s ease, box-shadow 0.5s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(90deg, rgb(255, 165, 47) 50%, transparent 50%); 
+    background-size: 200% 100%; 
+    background-position: right; 
+    text-align: center;
+  }
+  
+  .SingUpBtn:hover {
+    background-position: left; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  @media(max-width:376px){
+    .container{
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    .Parent{
+      margin-top: 190px;
+      height: 82vh;
+      margin-bottom: 98px;
+      margin-top: 150px;
+  }
+  }
+  @media(min-width:378) and (max-width:401px) {
+    .container{
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    .Parent{
+      height: 59vh;
+      margin-bottom: 98px;
+  }
+  }
+  @media(min-width:401px) and (max-width:760px) {
+    .container{
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    .Parent{
+      height: 60vh;
+      margin-bottom: 98px;
+  }
+  }
+  @media(min-width:761px) and (max-width:800px) {
+    .container{
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    .Parent{
+      height: 56vh;
+      margin-bottom: 98px;
+  }
+  }
+  @media(min-width:801px) and (max-width:860px) {
+    .container{
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    .Parent{
+      height: 62vh;
+      margin-bottom: 98px;
+  }
+  }
+  /* @media (max-width: 660px) {
+    .Parent{
+        height: 100vh;
+        margin-bottom: 30px;
+    }
+  }
+  @media(max-width:660px){
+    .container{
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    .Parent{
+      margin-top: 70px;
+      margin-bottom: 30px;
+    }
+  } */
+  /* @media(max-width:660px){
+    .container{
+      padding-left: 2px;
+      padding-right: 2px;
+      margin-top:70px;
+      margin-bottom:60px;
+
+    }
+  
+  }
+  @media (max-width: 660px) {
+    .Parent{
+        height: 70vh;
+        margin-bottom: 20%;
+    }
+  } */
